@@ -22,4 +22,4 @@ for line in fin:
 	SOC_py = cell0.Update((eval(Vt)/10000) - 0.004*eval(I),eval(I),eval(T),eval(t))
 	#fout.write(str(t) + ',' + str(SOC_py) + ',' + str(SOC_matlab) )
 	fout.write(str(t) + ',' + str(SOC_py) + '\n')
-	print str(t) + ',' + str(SOC_py)
+	print (str(t) + ',' + str(SOC_py))

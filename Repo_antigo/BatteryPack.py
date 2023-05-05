@@ -16,7 +16,7 @@ while True:
 	instr = raw_input("t,Vt,I,T,cellnum: ")
 	[t,Vt,I,T,cellnum] = instr.split(",")
 	SOC_py = cell[eval(cellnum)].Update((eval(Vt)/10000) - 0.004*eval(I),eval(I),eval(T),eval(t))
-	print "t=" + str(t) + ',SOC=' + str(round(SOC_py)) + ',cell=' + str(cellnum)
+	print ("t=" + str(t) + ',SOC=' + str(round(SOC_py)) + ',cell=' + str(cellnum))
 	
 # Some useful info:
 # cell[x].Voc = estimate for the open circuit voltage of the cell (depends on several factors)
