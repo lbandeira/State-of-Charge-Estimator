@@ -1,10 +1,11 @@
-===============================================================================
-SOC ESTIMATOR
-===============================================================================
+
+# SOC ESTIMATOR
 Auth: Daniel Cambron, University of Kentucky
+
 Date: 6/19/2015
+
 License: MIT
-===============================================================================
+
 Desc:
 
 Python scripts which estimate the State of Charge of a LiFePO4 Battery pack.
